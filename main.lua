@@ -1,4 +1,4 @@
--- Sprite Viewer v1.0.0
+-- Sprite Viewer
 -- Klehrik
 
 log.info("Successfully loaded ".._ENV["!guid"]..".")
@@ -33,8 +33,8 @@ gui.add_imgui(function()
 end)
 
 
-gm.post_code_execute(function(self, other, code, result, flags)
-    if code.name:match("oInit_Draw_7") and show then
+gm.post_code_execute("gml_Object_oInit_Draw_7", function(self, other)
+    if show then
         local spr = gm.constants[sprite]
         if spr then
             img_count = gm.sprite_get_number(spr)

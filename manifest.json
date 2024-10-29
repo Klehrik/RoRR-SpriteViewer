@@ -1,6 +1,6 @@
 ﻿{
 	"name": "Sprite_Viewer",
-	"version_number": "1.0.1",
+	"version_number": "1.0.2",
 	"website_url": "https://github.com/Klehrik/RoRR-SpriteViewer",
 	"description": "Tool for easily viewing sprites in-game.",
 	"dependencies": [

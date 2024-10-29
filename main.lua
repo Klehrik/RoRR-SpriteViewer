@@ -33,7 +33,7 @@ gui.add_imgui(function()
 end)
 
 
-gm.post_code_execute("gml_Object_oInit_Draw_7", function(self, other)
+gm.post_code_execute("gml_Object_oInit_Draw_73", function(self, other)
     if show then
         local spr = gm.constants[sprite]
         if spr then
